@@ -21,3 +21,4 @@ $router->get('/book','BookController@index');
 $router->get('/book/{id}','BookController@show');
 $router->put('/book/{id}','BookController@update');
 $router->delete('/book/{id}','BookController@destroy');
+$router->post('/register','UserController@register');
